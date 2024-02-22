@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:id="@+id/buttonsTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/mc"
+                style="@style/btn_gray"
+                android:textSize="8pt"
+                android:text="mc" />
+
+            <Button
+                android:id="@+id/mPlus"
+                style="@style/btn_gray"
+                android:textSize="8pt"
+                android:text="m+" />
+
+            <Button
+                android:id="@+id/mMinus"
+                style="@style/btn_gray"
+                android:textSize="8pt"
+                android:text="m-" />
+
+            <Button
+                android:id="@+id/mr"
+                style="@style/btn_gray"
+                android:textSize="8pt"
+                android:text="mr" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/cancel"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/div"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="÷" />
+
+            <Button
+                android:id="@+id/mult"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="×" />
+
+            <Button
+                android:id="@+id/del"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="⌫" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/num7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:text="7"
+                android:textColor="#474646"
+                android:textSize="10pt"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/num8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/minus"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:text="4"
+                android:textColor="#474646"
+                android:textSize="10pt"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/add"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:text="1"
+                android:textColor="#474646"
+                android:textSize="10pt"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/mod"
+                style="@style/btn_gray"
+                android:textColor="@color/accent"
+                android:text="%" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:text="."
+                android:textColor="#474646"
+                android:textSize="10pt"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/num0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/light_button"
+                android:textSize="10pt"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/eq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_span="2"
+                android:layout_weight="2"
+                android:background="@drawable/accent_button"
+                android:text="="
+                android:textSize="10pt" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

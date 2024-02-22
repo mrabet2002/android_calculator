@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btn_gray">
+        <item name="android:background">@drawable/gray_btn</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+    <style name="light_btn">
+        <item name="android:background">@drawable/light_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+    <style name="dark_gray_btn">
+        <item name="android:background">@drawable/dark_gray_btn</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+    <style name="text_sm">
+        <item name="android:textSize">8pt</item>
+    </style>
+    <style name="btn_stroke">
+        <item name="android:width">0.5dp</item>
+        <item name="android:color">@color/border</item>
+        <!-- Add other common attributes here -->
+    </style>
+</resources>

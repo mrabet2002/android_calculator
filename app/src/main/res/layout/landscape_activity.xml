@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandscapeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/screen"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:id="@+id/advancedFunctionsBtns"
+                android:layout_width="150dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/bracketOpen"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="(" />
+
+                    <Button
+                        android:id="@+id/bracketClose"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text=")" />
+
+                    <Button
+                        android:id="@+id/reciprocal"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="1/x" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/square"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="x²" />
+
+                    <Button
+                        android:id="@+id/cube"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="x³" />
+
+                    <Button
+                        android:id="@+id/pow"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="x^y" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/factorial"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="x!" />
+
+                    <Button
+                        android:id="@+id/sqrt"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="√" />
+
+                    <Button
+                        android:id="@+id/nthRoot"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="y√x" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/exp"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="e" />
+
+                    <Button
+                        android:id="@+id/ln"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="ln" />
+
+                    <Button
+                        android:id="@+id/log"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="log" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/sin"
+                        style="@style/dark_gray_btn"
+                        android:text="sin"
+                        android:textAllCaps="false"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/cos"
+                        style="@style/dark_gray_btn"
+                        android:text="cos"
+                        android:textSize="6pt" />
+
+                    <Button
+                        android:id="@+id/tan"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="tan" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/inv"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="Inv" />
+
+                    <Button
+                        android:id="@+id/mode"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="Rad" />
+
+                    <Button
+                        android:id="@+id/pi"
+                        style="@style/dark_gray_btn"
+                        android:textSize="6pt"
+                        android:text="π" />
+                </TableRow>
+            </TableLayout>
+            <include
+                layout="@layout/simple_keyboard"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
